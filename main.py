@@ -20,7 +20,7 @@ time=datetime.datetime.now().time()
 class Application:
     def __init__(self, master, *args, **kwargs):
         self.master = master
-        # frames
+       
         self.left = Frame(master, width=1920, height=1080)
         self.left.pack(side=LEFT)
 
